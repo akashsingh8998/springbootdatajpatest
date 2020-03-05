@@ -87,13 +87,6 @@ public class City {
 
     @Override
     public String toString() {
-//
-//        StringBuilder builder = new StringBuilder();
-//        builder.append("City{id=").append(id).append(", name=")
-//                .append(name).append(", population=")
-//                .append(population).append("}");
-//
-//        return builder.toString();
     	return ("id="+id+",name="+name+",population="+population);
     }
 }
